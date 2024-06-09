@@ -17,7 +17,7 @@ jobs:
       run: |
         # Configurar Surge.sh
         npm install --global surge
-        surge token <SURGE_API_KEY> # Reemplazar <SURGE_API_KEY> con la API Key de Surge de cada estudiante
+        surge token 9febab99868f90875e927e67a145f059
 
         # Desplegar en Surge.sh
         surge --project ./ --domain francis-beltre.surge.sh
